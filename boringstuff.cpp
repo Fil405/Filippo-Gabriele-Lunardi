@@ -8,9 +8,9 @@ int main (void){
 	float a, b;
 	bool u;
 	
-	cout<<"inserire un valore a: "<< endl;
+	cout<<"give to A a value: "<< endl;
 	cin>>a;
-	cout<<"inserire un valore b: "<< endl;
+	cout<<"give to B a value: "<< endl;
 	cin>>b;
 	
 	a= a+1;
@@ -19,7 +19,8 @@ int main (void){
 	u= a==b;
 	
 	
-	cout<<a<<" sara' uguale a: "<<b<<" ?"<<endl;
+	cout<<"Will "<<a<<" have the same value of: "<<b<<" ?"<<endl;
 	cout<<u;
 	
 }
+//made by Filippo Lunardi 
